@@ -65,3 +65,56 @@ border-radius: 0px 0px 90px 90px;
   line-height: 15px;
   color: #686868;
 }
+.card {
+  background: #FFFFFF;
+  box-shadow: 0px 0px 30px rgba(92, 92, 92, 0.1);
+  border-radius: 10px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  padding-top: 13px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 13px;
+}
+.buttons{
+  display: flex;
+  justify-content: space-between;
+  max-width: 290px;
+  margin: auto;
+  gap: 4px;
+}
+
+.button {
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  flex-shrink: 1;
+  width: 100%;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  gap: 5px;
+  margin-bottom: 8px;
+}
+.button.vk {
+  background: #4C75A3
+}
+.button.tg {
+  background: #0088CC
+}
+.button.yt {
+  background: #FF0000
+}
+.button.github {
+  background: #000;
+  max-width: 290px;
+}
+.button.hh {
+  background: #d6001c;
+}
+
