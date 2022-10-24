@@ -1,3 +1,34 @@
-*{
+* {
   box-sizing: border-box;
+}
+body{ 
+  background-color: #F7F7F7;
+  padding: 15px;
+  font-family: 'Inter', sans-serif;
+}
+.page-wrapper {
+  max-width: 375px;
+  margin: auto;
+  background: #F7F7F7;
+  box-shadow: 0px 0px 30px rgba(126, 126, 126, 0.25);
+  border-radius: 20px;
+}
+.header {
+  color: #fff;
+  padding-top: 32px;
+  padding-left: 32px;
+  padding-bottom: 149px;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/header-bg.png')
+  no-repeat center / cover;
+border-radius: 0px 0px 90px 90px;
+}
+.hello {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+}
+.hello-text {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
 }
