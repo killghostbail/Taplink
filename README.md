@@ -1,3 +1,3 @@
 # Taplink
-Сайт-визитка для социальных сетей.
-### Автор: Илья Батин
+Fully designed and made by me visiting card-site.
+### Author: Ilya Batin.
